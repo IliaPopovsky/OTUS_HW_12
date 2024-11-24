@@ -31,7 +31,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="main.c">
+		<Unit filename="Parsing_HTTP_server_logs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="data_structures.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="functions_companions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hash_functions.h" />
+		<Unit filename="parsing_functions.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions />
