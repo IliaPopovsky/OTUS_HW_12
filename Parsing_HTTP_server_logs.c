@@ -4,6 +4,8 @@
 #include <string.h>
 #include <pthread.h>
 
+char name_file[400] = {0};
+
 void *thread_body(void *arg);
 void parsing_string(FILE *fp);
 
@@ -16,7 +18,7 @@ int main(int argc, char *argv[])
     long int location = 0;
     //dp = opendir(argv[1]);
     char name_directory[100] = {0};
-    char name_file[400] = {0};
+    //char name_file[400] = {0};
     int read_symbol = 0;
     int number_files = 0;
     int number_threads = 8;

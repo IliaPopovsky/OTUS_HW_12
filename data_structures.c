@@ -4,6 +4,7 @@
 
 void create_hashtable(long last)
 {
+   long size = last;
    HTnode *pointer_htnode = NULL;
    if((pointer_htnode = (HTnode *)calloc(size, sizeof(HTnode))) == NULL)
    {
