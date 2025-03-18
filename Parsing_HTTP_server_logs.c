@@ -7,7 +7,7 @@
 char name_file[400] = {0};
 
 void *thread_body(void *arg);
-void parsing_string(FILE *fp);
+long parsing_string(char *str, char *url, char *referer);
 
 int main(int argc, char *argv[])
 {
